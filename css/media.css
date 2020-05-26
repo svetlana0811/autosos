@@ -1,0 +1,558 @@
+@media (max-width: 1600px){
+	.newsPictures {
+	    max-width: 490px;
+	    width: 30%;
+	}
+	.newsContent {
+	    width: 70%;
+        font-size: 25px;
+	}.aboutPartners p {
+	    font-size: 20px;
+	}
+	.serviceDesc p {
+	    font-size: 35px;
+	}
+}
+@media (max-width: 1366px) {
+	.navbar nav {
+	    width: 75%;
+	}
+	.navbar ul {
+	    width: 70%;
+	}
+	.servicePic {
+	    height: 140px;
+	}
+	.serviceDesc p {
+	    font-size: 25px;
+	}
+	
+	.registrInfo input , .regButton {
+		font-size: 21px;
+	}
+	.findUs{
+		font-size: 21px;
+	}
+	.containerSales h1 {
+		font-size: 33px;
+	}
+	.salesItem {
+	    padding: 15px;
+	    font-size: 30px;
+	}
+	.newsContent {
+        font-size: 17px;
+	}
+	.aboutPartTitle, .teamTitle , .teamMemItems{
+	    font-size: 31px;
+	}
+	.aboutPartners p {
+	    font-size: 17px;
+	}
+	.partnerMembers , .aboutPartners{
+	    padding: 10px;
+	}
+	.description , .partnerMembers >div.partnersPic{
+	    height: 300px;
+	}
+	.aboutPartTitle, .teamTitle {
+		width: 60%;
+   		max-width: 320px;
+	}
+	.teamMemItems .image {
+	    width: 150px;
+	    height: 150px;
+	}
+	.registrSection {
+	    height: 800px;
+	}
+	.containerSales {
+		max-width: 700px;
+	}
+	.popupContact .contactUs {
+	    width: 50%;
+	}
+	.userAvatar {
+	    height: 160px;
+	}
+	.userName {
+		height: 60px;
+		padding: 10px 0;
+	}
+	.userNamePic {
+		font-size: 25px;
+	}
+	.userDescript {
+	    font-size: 17px;
+	}
+	.passwordAndEye span {
+		top: 26px;
+	    font-size: 20px;
+	}
+	.passwordAndEye span {
+		right: 70px;
+	}
+}
+@media (max-width: 1100px) {
+	.navbar ul {
+	    font-size: 13px;
+	}
+	.registrInfo input, .regButton {
+	    font-size: 21px;
+	}
+	.regButton {
+		width: 400px;
+	}
+	.registration > div p {
+		font-size: 20px;
+	}
+	.registration > div p a , .phoneNumber{
+	    font-size: 31px;
+	}
+	
+	.serviceDesc p {
+	    font-size: 17px;
+	}
+	.servicePic {
+	    height: 100px;
+	}
+	.priceInfo {
+	    height: 100px;
+        font-size: 20px;
+	}
+	.priceItem {
+	    height: 380px;
+	}
+	.pricePicPart {
+	    height: 280px;
+	}
+	.contactInfo >div {
+		width: 80%;
+    	max-width: 700px;
+    	height: 700px;
+	}
+	.android {
+	    font-size: 50px;
+	}
+	.socPages > div {
+	    width: 80px;
+	    height: 80px;
+	    border: 7px solid white;
+	    font-size: 30px;
+	}
+	.container {
+	    width: 80%;
+	}
+	.prodName , .newPrice ,.oldPrice {
+	    padding: 10px;
+	}
+	.salesItem {
+	    font-size: 25px;
+	}
+	.newsContent {
+	    font-size: 14px;
+	}
+	.aboutPartners .title, .partnerMembers .title {
+	    height: 150px;
+	}
+	.partnerMembers >div {
+	    width: 90%;
+	}
+	.teamMembers {
+		padding: 30px;
+	}
+	.teamMemItems .image {
+	    width: 120px;
+	    height: 120px;
+	}
+	.aboutPartTitle, .teamTitle, .teamMemItems {
+	    font-size: 21px;
+	}
+	.aboutPartTitle, .teamTitle {
+	    width: 50%;
+	    max-width: 230px;
+	}
+	.aboutPartners p {
+	    font-size: 15px;
+	}	
+	.teamMembers {
+		width: 90%;
+	}
+	.registration {
+		width: 53%;
+	}
+	.registrInfo , .slideRight {
+	   width: 47%;
+	}
+	.registrInfo {
+		right: -47%;
+	}
+	.registrSection {
+	    height: 700px;
+	}
+	.userAvatar {
+	    padding: 20px;
+   	 	height: 140px;
+	}
+}
+
+@media (max-width: 768px) {
+	.salesItem {
+	    font-size: 17px;
+	}
+	.oldPrice p {
+		border-top: 1px solid black;
+		border-bottom: none;
+		border-right: none;
+		border-left: none;
+		top: 53%;
+	}
+	.prodName, .newPrice, .oldPrice {
+	    padding: 5px;
+	}
+	.newsContent {
+	    font-size: 12px;
+        padding: 0;
+        width: 60%;
+
+	}
+	.newsContent p {
+        padding: 10px 20px;
+	}
+	.newsPictures {
+	    width: 40%;
+	}
+	.aboutUsSection , .teamMembers{
+	    flex-wrap: wrap;
+	}
+	.aboutPartners , .partnerMembers {
+		width: 100%;
+	}
+	.partnerMembers >div.partnersPic {
+		text-align: center;
+	}
+	.partnerMembers>div img {
+	    width: initial;
+	    height: 100%;
+	}
+	.aboutPartTitle, .teamTitle {
+		margin: 20px auto;
+	}
+	.ourTeamSection {
+		padding-top: 20px;
+	    margin-top: 50px;
+	}
+   /* .teamMemItems {
+	    width: 48%;
+	    margin: 1%;
+	}*/
+	.teamMemItems .image {
+	    width: 140px;
+	    height: 140px;
+	}
+	.teamMemItems p {
+	    margin-bottom: 20px;
+	}
+	.phoneNumber {
+		font-size: 21px;
+	}
+	.logoPart {
+	    margin: 10px 0;
+	}
+	.socPages > div {
+	    width: 70px;
+	    height: 70px;
+	    border: 5px solid white;
+	    font-size: 20px;
+	}
+	.android {
+	    font-size: 40px;
+	}
+	.findUs {
+	    font-size: 15px;
+	}
+	.socPages {
+	    padding: 6%;
+	}
+	
+	 .registration > div {
+	 	margin: 0 auto;
+	 }
+	 .registration ,.registrInfo{
+	    width: 100%;
+	}
+	.registrInfo {
+		background: rgb(0, 0, 0);
+	    right: -100%;
+	}
+	.serviceItem {
+	    width: 100%;
+	}
+	.darkBack {
+		background: #1a1a1a;
+	}
+	.serviceItem.slowBack {
+		background: #373737;
+	}
+	.servicePic img , .servicePic img.positionedPic,
+	 .servicePic img.positionedPic2 , .servicePic img.positionedPic5,
+	 .servicePic img.positionedPic1{
+	    max-width: 50%;
+		left: 40%;
+	    right: 0;
+	    bottom: 0;
+	    max-height: 100%;
+	}
+	.priceItem {
+	    height: 300px;
+	}
+	.pricePicPart {
+	    height: 230px;
+	}
+	.priceInfo {
+	    height: 70px;
+	    font-size: 17px;
+	}
+	.picture img {
+	    width: 80%;
+	}
+	.pricePicPart .picture{
+	    width: 100%;
+    	height: 100%;
+	}
+	footer .container , .footerItem ul{
+		width: 100%;
+	}
+	.footerItem ul {
+		font-size: 12px;
+	}
+	.footerItem ul li {
+	    width: 92%;
+	    margin: 4%;
+	}
+	.registrSection {
+	    height: 600px;
+	}
+	.navbar ul li {
+	    display:none;
+	    color: white;
+	 }
+	.navbar ul ol li {
+		display: block;
+	}
+	nav ul > li:last-of-type {
+	    display: block
+	}
+	nav ul input {
+	    display: inline
+	}
+    .navbar ul {
+	    width: max-content;
+	    margin-top: 20px;
+	}
+	.popupContact .contactUs {
+	    width: 70%;
+	}
+	.userSettings {
+	    font-size: 24px;
+	}
+	.fontSizeText {
+	    font-size:21px !important;
+	}
+	.lastShop>div{
+		font-size: 20px;
+	    height: 70px;
+	}
+	.smallItem.titleSmall , .largeItem.titleLarge {
+		height: 110px;
+	}
+	.userBorder {
+	    padding-bottom: 50px;
+	    border-bottom: 3px solid;
+	}
+	.userName {
+	    height: 60px;
+	    padding: 10px 0;
+	    display: flex;
+	    flex-direction: column;
+	    justify-content: center;
+	}
+	.userNamePic {
+	    font-size: 17px;
+	}
+	.userDescript {
+	    width: 90%;
+	}
+	.smallItem {
+	    width: 40%;
+	}
+	.largeItem {
+	    width: 60%;
+	}
+	.userInfoSett {
+    	width: 50%;
+    }
+    .userNamePic {
+	    width: 40%; 
+	}
+	.userAvatar img {
+		width: auto;
+		height: 100%;
+	}
+	.userDescript {
+	    font-size: 14px;
+	}
+	.passwordAndEye span {
+		right: 17%;
+	}
+	.pricePicPart .picture img {
+	    width: auto;
+	    height: 100%;
+	}
+	.comment {
+	    max-height: 80px;
+	}
+}
+
+@media (max-width: 500px){
+	.containerSales {
+	    width: 90%;
+	}
+	.salesItem {
+	    font-size: 12px;
+	}
+	.containerSales h1 {
+		width: 100%;
+	    font-size: 23px;
+        margin-top: 70px;
+    	margin-bottom: 40px;
+	}
+	.newsItems {
+	    flex-wrap: wrap;
+	    justify-content: center;
+	}
+	.newsPictures ,.newsContent {
+	    width: 100%;
+	}
+	.newsContent p {
+	    padding: 20px 30px;
+	}
+	
+	.teamMemItems .image {
+	    width: 80px;
+	    height: 80px;
+	}
+	.aboutPartners .title, .partnerMembers .title {
+	    height: 100px;
+	}
+	.aboutPartTitle, .teamTitle, .teamMemItems {
+	    font-size: 16px;
+	}
+	.partnerMembers >div.partnersPic{
+	    height: 170px;
+	}
+	.description {
+		height: 350px;
+	}
+	.contactInfo {
+	    width: 80%;
+	    margin: 0 auto;
+	}
+	.servicePic {
+	    height: 70px;
+	}
+	.serviceDesc p {
+	    font-size: 14px;
+	}
+	.twoParts {
+	    width: 100%;
+	}
+	.priceItem {
+        margin-top: 10px;
+	}
+	.pricePicPart {
+	    height: 80%;
+	}
+	.priceInfo {
+	    height: 20%;
+	    font-size: 15px;
+	}
+	.contactInfo >div {
+		height:auto;
+	}
+	.socLinks a {
+	    margin: 0 10px 0 0;
+	}
+	.registration > div {
+		max-width: 260px;
+	}
+	.registration > div p {
+	    font-size: 15px;
+	}
+	.registration > div p a, .phoneNumber {
+	    font-size: 21px;
+	}
+	.registrSection {
+	    height: 400px;
+	}
+	.registrInfo input, .regButton {
+	    font-size: 12px;
+	}
+	.registrInfo input[type = "submit"], .regButton {
+	    margin-top: 40px;
+	}
+	.popupContact .contactUs {
+	    width: 90%;
+	}
+	.closePopup {
+		right: 20px;
+	}
+	.smallItem.titleSmall, .largeItem.titleLarge {
+	    height: 90px;
+	}
+	.lastShop>div {
+		width: 100%
+	}
+	.largeItem:not(:first-child) {
+	    border-top: none;
+    	border-bottom: 1px solid gray;
+	}
+	.smallItem:not(:first-child) {
+	    border-right: none;
+	    border-top: none;
+        border-bottom: 1px solid gray;
+	}
+	.smallItem.titleSmall {
+	    border-right: none;
+	}
+	.userAvatar {
+	    padding: 10px;
+	    height: 90px;
+	}
+	.userNamePic {
+	    font-size: 14px;
+	}
+	.userDescript {
+	    font-size: 12px;
+	    width: 100%;
+	}
+	.userSettings {
+	    font-size: 15px;
+	}
+	.fontSizeText {
+	    font-size:12px !important;
+	}
+	.passwordAndEye span {
+	    right: 13%;
+	    top:23px;
+	}
+	.userName {
+	    height: 40px;
+	}
+	.logo {
+	    width: 130px;
+	}
+	nav ul > ol {
+		top: 95px;
+	}
+}

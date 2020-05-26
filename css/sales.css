@@ -1,0 +1,90 @@
+body {
+	background: #464646;
+}
+@font-face {
+    font-family: 'myriad';
+    src: url('../fonts/MyriadPro-Regular.ttf');
+}
+.containerSales {
+    width: 75%;
+    max-width: 1000px;
+    margin: 20px auto 80px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+main {
+    font-family: 'myriad';
+}
+.salesItem1 {
+    width: 100%;
+}
+.containerSales h1 {
+    font-size: 43px;
+    width: 30%;
+    max-width: 500px;
+    text-align: center;
+    text-transform: uppercase;
+    background: white;
+    border-radius: 50px;
+    margin-left: 2%;
+    margin-top: 90px;
+    margin-bottom: 80px;
+}
+.salesItem {
+    width: 100%;
+    display: flex;
+    padding: 2px;
+    background: white;
+    margin: 20px 0;
+    border-radius: 100px;
+    font-size: 40px;
+}
+.prodName {
+    width: 30%;
+    text-align: center;
+    border-right: 1px solid;
+    padding: 20px;
+}
+.oldPrice {
+    position: relative;
+    color: #ff0101;
+	width: 40%;
+    text-align: center;
+    padding: 20px
+}
+.oldPrice p {
+    width: 50%;
+    border: 1px solid black;
+    right: 25%;
+    left: 25%;
+    top: 55%;
+    position: absolute;
+}
+.newPrice {
+    color: #ff0101;
+	width: 30%;
+    text-align: center;
+    padding: 20px;
+}
+.slideRight {
+    right: 0 !important;
+    top: 109px;
+    width: 37%;
+    max-width: 780px;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    right: -37%;
+    transition: .6s;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(27, 27, 27);
+    bottom: 0;
+}
+.fullHeight {
+    top: 0 !important;
+}
+.bottomHeight {
+    height: 80%;
+}

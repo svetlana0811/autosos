@@ -1,0 +1,114 @@
+body {
+	background: #242424
+}
+.aboutUsSection {
+	display: flex;
+	font-family: myriad;
+}
+@font-face {
+    font-family: 'myriad';
+    src: url('../fonts/MyriadPro-Regular.ttf');
+}
+.aboutPartners {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 55%;
+    padding: 50px;
+    background: #464646;
+    text-align: center;
+}
+.aboutPartTitle , .teamTitle {
+    width: 70%;
+    font-size: 43px;
+    max-width: 500px;
+    background: #b5b5b5;
+    border-radius: 50px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+    color: #250202;
+}
+.aboutPartTitle  {
+	margin: 50px auto;
+}
+.partnerMembers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 45%;
+    padding:  50px;
+}
+.aboutPartners .title , .partnerMembers .title {
+	    height: 200px;
+}
+.partnerMembers >div.title {
+    margin: inherit;
+    width: 100%;
+}
+.description {
+	    height: 350px;
+}
+.aboutPartners p {
+    font-size: 28px;
+    color: white;
+    margin: 20px 0;
+}
+.partnerMembers >div {
+	    width: 70%;
+    height: 350px;
+    margin: 0 auto;
+}
+.partnerMembers>div img {
+    width: 100%;
+}
+.ourTeamSection {
+	font-family: myriad;
+	margin-top: 70px;
+    background: #464646;
+    padding-top: 80px;
+}
+.teamMembers {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0px auto;
+    padding: 60px 40px;
+}
+.teamMemItems {
+	text-align: center;
+    color: #9e9e9e;
+    font-size: 43px;
+}
+.teamMemItems .image {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+.teamMemItems .image img {
+    width: 100%;
+}
+.teamMemItems p {
+
+}
+.slideRight {
+    right: 0 !important;
+    top: 109px;
+    width: 37%;
+    max-width: 780px;
+    height: 100%;
+    display: flex;
+    position: fixed;
+    right: -37%;
+    transition: .6s;
+    flex-direction: column;
+    justify-content: center;
+    background: rgb(27, 27, 27);
+    bottom: 0;
+}
+.fullHeight {
+    top: 0 !important;
+}
+.bottomHeight {
+    height: 80%;
+}

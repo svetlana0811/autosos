@@ -1,0 +1,131 @@
+.userPage{
+    justify-content: space-between;
+   padding-top: 50px;
+
+}
+.userBorder { 
+	padding-bottom: 100px;
+    border-bottom: 5px solid;
+}
+.userNamePic {
+    width: 20%;
+    max-width: 360px;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: 30px;
+    background: #2d2d2d;
+    height: max-content;
+}
+img {
+    height: 100%;
+    width: auto;
+}
+.userAvatar {
+   padding: 30px;
+   height: 200px;
+}
+.userName {
+    text-transform: uppercase;
+    font-size: 23px;
+}
+.userInfoSett {
+ 	width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    color: white;
+}
+.userDescript {
+    width: 50%;
+    padding: 0 0 30px 0;
+    font-size: 20px;
+    border-bottom: 3px solid #fd1e18;
+}
+.userSettings {
+	font-size: 30px;
+    margin: 20px 0;
+}
+.userSettings span {
+    margin: 0 20px 0 0;
+    cursor: pointer;
+    transition: .2s;
+}
+.heartIcon{
+	color: #fd1e18;
+}
+.lastShop {
+	padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background: rgb(60, 60, 60);
+    margin-top: 100px;
+}
+.smallItem.titleSmall {
+	border-right: 2px solid gray;
+	height: 150px;
+}
+.smallItem {
+    height: 90px;
+    width: 30%;
+}
+.smallItem:not(:first-child) {
+	border-right: 2px solid gray;
+    border-top: 2px solid gray;
+}
+.largeItem {
+	height: 90px;
+	width: 70%;
+}
+.largeItem:not(:first-child){
+	border-top: 2px solid gray;
+}
+.largeItem.titleLarge {
+	border-top: none;
+	height: 150px;
+}
+.lastShop>div {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    font-size: 30px;
+    color: white;
+    text-transform: uppercase;
+    padding: 10px;
+}
+.userSettingsPart {
+    width: 40%;
+    display: none;
+}
+.settingItem {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+}
+.settingItem span {
+    color: white
+}
+.settingItem input , .settingItem textarea{
+    background: transparent;
+    border: 1px solid white;
+    padding: 10px 15px;
+    color: white;
+}
+.settingItem textarea {
+    resize: none;
+}
+.settingItem button{
+    padding: 10px;
+    background: transparent;
+    border: 1px solid white;
+    width: 50%;
+    color: white;
+    margin: 10px auto;
+}
+.settingItem button.changePass {
+        width: 100%;
+}
+.descriptionValue , .userName p {
+    word-break: break-word;
+}

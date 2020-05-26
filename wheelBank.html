@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<title>Orders</title>
+	 <meta name="Description" content="“">
+    <meta name="Keywords" content="">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/order.css">
+    <link rel="stylesheet" href="css/media.css">
+    <link rel="icon" type="image/png" sizes="32x32" href="">
+    <link rel="icon" type="image/png" sizes="16x16" href="">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+	<header>
+		<div class="headerEmptyLine"></div>
+		<div class="navbar">
+			<nav>
+				<div class="logo">
+					<a href="index.html"><img src="img/logo.png" alt="logo"></a>
+				</div>
+				<ul class="headerMenu">
+					<li><a href="aboutUs.html">մեր մասին</a></li>
+					<li><a href="news.html">նորություներ</a></li>
+					<li><a href="sale.html">զեղչեր</a></li>
+					<li><a class="registrationButton">գրանցվել</a></li>
+					<li>
+				      <a href="#">
+				        <i class="fa fa-bars"></i>
+				      </a>
+   					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<main class="body">
+		<div class="tableSection">
+			<div class="blackBack">
+				<div class="blackLine"></div>
+				<div class="tablesBack wheelBank">
+					<table>
+						<tr>
+							<td class="rightBottom">Անվադող</td>
+							<td class="rightBottom">Չափ</td>
+							<td class="onlyBottom">Գին</td>
+						</tr>
+						<tr>
+							<td class="rightBottom">Անվադող</td>
+							<td class="rightBottom"></td>
+							<td class="onlyBottom"></td>
+						</tr>
+						<tr>
+							<td class="rightBottom">Անվադող</td>
+							<td class="rightBottom"></td>
+							<td class="onlyBottom"></td>
+						</tr>
+						<tr>
+							<td class="rightBottom">Անվադող</td>
+							<td class="rightBottom"></td>
+							<td class="onlyBottom"></td>
+						</tr>
+						<tr>
+							<td class="rightBottom">Անվադող</td>
+							<td class="rightBottom"></td>
+							<td class="onlyBottom"></td>
+						</tr>
+						<tr class="lastChild">
+							<td class="rightBottom">Անվադող</td>
+							<td class="rightBottom"></td>
+							<td class="onlyBottom"></td>
+						</tr>
+					</table>
+				</div>
+				
+				<div class="orderAndCall">
+					<div >
+						<div class="toOrder">
+							<a href="" >Պատվիրել</a>
+						</div>
+					</div>
+					<div>
+						<p class="callArm">Զանգել</p>
+						<div  class="toCall">
+							<a href=""><i class="fas fa-phone"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div style="width: 100%">
+			<iframe width="100%" height="690" src="https://maps.google.com/maps?width=100%&amp;height=600&amp;hl=en&amp;q=1%20Grafton%20Street%2C%20Dublin%2C%20Ireland+(My%20Business%20Name)&amp;ie=UTF8&amp;t=&amp;z=14&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"><a href="https://www.maps.ie/create-google-map/">Create Google Map</a></iframe>
+		</div>
+		<div class="registrInfo">
+			<form class="registrForm" action="reg.php" method="post">
+				<input name="name" type="text" placeholder="անուն ազգանուն" onfocus="this.placeholder = ''" onblur="this.placeholder = 'անուն ազգանուն'" required>
+				<input name="email" type="email" placeholder="էլ․ փոստ" onfocus="this.placeholder = ''" onblur="this.placeholder = 'էլ․ փոստ'" required>
+				<input name="phone" type="text" placeholder="հեռախոսահամար" onfocus="this.placeholder = ''" onblur="this.placeholder = 'հեռախոսահամար'" required>
+				<input name="username" type="text" placeholder="օգտվողի անուն" onfocus="this.placeholder = ''" onblur="this.placeholder = 'օգտվողի անուն'" required>
+				<div class="passwordAndEye">
+					<input name="password" class="passwordEye" type="password" placeholder="Գաղտնաբառ" required onfocus="this.placeholder = ''" onblur="this.placeholder = 'Գաղտնաբառ'">
+					<span class="passEye"><i class="fas fa-eye-slash"></i></span>
+				</div>
+				<input name="submit" type="submit" value="Գրանցում">
+			</form>
+			<form class="loginform" action="login.php" method="post">
+				<input name="email" type="email" placeholder="օգտվողի անուն" required onfocus="this.placeholder = ''" onblur="this.placeholder = 'էլ․ փոստ'">
+				<div class="passwordAndEye">
+					<input name="password" class="passwordEye" type="password" required placeholder="Գաղտնաբառ" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Գաղտնաբառ'">
+					<span class="passEye"><i class="fas fa-eye-slash"></i></span>
+				</div>
+				<input name="submit" type="submit" value="Մուտք">
+			</form>
+		</div>
+		<div class="popupContact">
+			<div class="contactUs">
+				<form action="" class="sendMessage">
+					<input name="name" type="text" class="name" required placeholder="name" required>
+					<input name="email" type="email" class="email" required placeholder="email" required>
+					<textarea name="message" name="" id="" cols="30" rows="10" class="message" required placeholder="message" required></textarea>
+					<input type="submit" class="submit" value="send">
+				</form>
+				<span class="closePopup"><i class="fas fa-times"></i></span>
+			</div>
+		</div>
+	</main>
+	<footer class="">
+		<div class="container">	
+			<div class="footerItem">
+				<ul>
+					<li><a href="">Օգտագործման կանոններ</a></li>
+					<li><a href="">Գնացուցակ</a></li>
+					<li><a class="contactLink">Կապ</a></li>
+				</ul>
+			</div>
+			<div class="footerItem itemBorder">
+				<ul>
+					<li><a href="aboutUs.html">Մեր մասին</a></li>
+					<li><a href="news.html">Նորություններ</a></li>
+					<li><a href="sale.html">Զեղչեր</a></li>
+				</ul>
+			</div>
+			<div class="footerItem">
+				<ul>
+					<li class="socLinks">
+						<a href=""><i class="fab fa-facebook-square"></i></a>
+						<a href=""><i class="fab fa-instagram"></i></a>
+						<a href=""><i class="fab fa-twitter-square"></i></a>
+					</li>
+					<li><a href="itresources.am">ITResources</a></li>
+					<li>
+						<a class="footerRegLogin registrNotIndex registrationButton">գրանցում</a> / 
+						<a class="logInLink footerRegLogin login">մուտք</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery-3.2.1.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>
